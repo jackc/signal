@@ -1,4 +1,4 @@
-package set
+package signal
 
 import "github.com/clipperhouse/typewriter"
 
