@@ -11,7 +11,7 @@ var signal = &typewriter.Template{
 	Text: `
 // The primary type that represents a signal
 type {{.Name}}Signal struct {
-   listeners [](chan <%= type_name %>)
+   listeners [](chan {{.Name}})
    mutex     sync.Mutex
 }
 
